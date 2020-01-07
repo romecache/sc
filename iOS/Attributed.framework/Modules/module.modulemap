@@ -1,0 +1,11 @@
+framework module Attributed {
+  umbrella header "Attributed.h"
+
+  export *
+  module * { export * }
+}
+
+module Attributed.Swift {
+    header "Attributed-Swift.h"
+    requires objc
+}

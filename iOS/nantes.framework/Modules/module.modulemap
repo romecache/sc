@@ -1,0 +1,11 @@
+framework module Nantes {
+  umbrella header "Nantes.h"
+
+  export *
+  module * { export * }
+}
+
+module Nantes.Swift {
+    header "Nantes-Swift.h"
+    requires objc
+}

@@ -1,0 +1,5 @@
+*.version
+Mac
+tvOS
+watchOS
+.iOS

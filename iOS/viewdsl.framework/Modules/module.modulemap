@@ -1,0 +1,6 @@
+framework module ViewDSL {
+  umbrella header "ViewDSL.h"
+
+  export *
+  module * { export * }
+}

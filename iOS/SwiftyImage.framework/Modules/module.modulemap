@@ -1,0 +1,11 @@
+framework module SwiftyImage {
+  umbrella header "SwiftyImage.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyImage.Swift {
+    header "SwiftyImage-Swift.h"
+    requires objc
+}
